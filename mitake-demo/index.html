@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <!-- <script src="./demo.js"></script> -->
+
+  <title>股東e票通</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <input type="checkbox" name="" id="open-menu">
+    <div class="header">
+      <div class="logo">
+        <h3>TDCC</h3>
+        <div class="logo-title">
+          <h2>股東e票通</h2>
+          <h4>股東電子投票平台</h4>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="">首頁</a>
+        <a href="">關於我們</a>
+        <a href="">活動消息</a>
+        <a href="">統計專區</a>
+        <a href="">Q&A</a>
+        <a href="">聯絡我們</a>
+        <a href="">登入</a>
+      </nav>
+      <label for="open-menu" class="open-menu"></label>
+    </div>
+
+
+    <div class="body">
+
+      <div class="news-box">
+        <div class="title">活動消息:</div>
+        <div class="content">
+          <div>一般股東</div>
+          <div>
+            <span>發行公司、股務代理機構</span>
+          </div>
+          <div>專業機構法人</div>
+        </div>
+      </div>
+
+      <div class="setting-box">
+        <div>新手上路</div>
+        <div>首次使用設定</div>
+      </div>
+
+
+      <div class="shareholders-meeting-search-box">
+        <div class="title">股東會資訊</div>
+        <div class="search">
+          <div>
+            <label for="sort">資料排序方式:</label>
+            <input id="sort" type="text">
+            <button>查詢</button>
+          </div>
+          <div>
+            <label for="shareholders-meeting">搜尋股東會:</label>
+            <input id="shareholders-meeting" type="text">
+            <button>查詢</button>
+          </div>
+        </div>
+        <div class="list">
+          <table width="100%">
+            <thead>
+              <tr>
+                <th>證券代號/名稱</th>
+                <th>股東會日期</th>
+                <th>投票起訖日</th>
+                <th>服務單位</th>
+                <th>連絡電話</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-th='證券代號/名稱'>證券代號/名稱</td>
+                <td data-th='股東會日期'>股東會日期</td>
+                <td data-th='投票起訖日'>投票起訖日</td>
+                <td data-th='服務單位'>服務單位</td>
+                <td data-th='連絡電話'>連絡電話</td>
+              </tr>
+              <tr>
+                <td data-th='證券代號/名稱'>6702復興航空</td>
+                <td data-th='股東會日期'>106/01/11</td>
+                <td data-th='投票起訖日'>105/12/27~106/01/08</td>
+                <td data-th='服務單位'>群益金鼎證卷</td>
+                <td data-th='連絡電話'>(02)2703-500</td>
+              </tr>
+              <tr>
+                <td data-th='證券代號/名稱'>6702復興航空</td>
+                <td data-th='股東會日期'>106/01/11</td>
+                <td data-th='投票起訖日'>105/12/27~106/01/08</td>
+                <td data-th='服務單位'>群益金鼎證卷</td>
+                <td data-th='連絡電話'>(02)2703-500</td>
+              </tr>
+              <tr>
+                <td data-th='證券代號/名稱'>6702復興航空</td>
+                <td data-th='股東會日期'>106/01/11</td>
+                <td data-th='投票起訖日'>105/12/27~106/01/08</td>
+                <td data-th='服務單位'>群益金鼎證卷</td>
+                <td data-th='連絡電話'>(02)2703-500</td>
+              </tr>
+              <tr>
+                <td data-th='證券代號/名稱'>6702復興航空</td>
+                <td data-th='股東會日期'>106/01/11</td>
+                <td data-th='投票起訖日'>105/12/27~106/01/08</td>
+                <td data-th='服務單位'>群益金鼎證卷</td>
+                <td data-th='連絡電話'>(02)2703-500</td>
+              </tr>
+              <tr>
+                <td data-th='證券代號/名稱'>6702復興航空</td>
+                <td data-th='股東會日期'>106/01/11</td>
+                <td data-th='投票起訖日'>105/12/27~106/01/08</td>
+                <td data-th='服務單位'>群益金鼎證卷</td>
+                <td data-th='連絡電話'>(02)2703-500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="related-info-box">
+        <div class="img-link">
+          <img src="https://picsum.photos/150/50?random=1" alt="">
+          <img src="https://picsum.photos/150/50?random=2" alt="">
+          <img src="https://picsum.photos/150/50?random=3" alt="">
+          <img src="https://picsum.photos/150/50?random=4" alt="">
+          <img src="https://picsum.photos/150/50?random=5" alt="">
+          <img src="https://picsum.photos/150/50?random=6" alt="">
+        </div>
+        <div class="web-link">
+          <div class="title">
+            <div>相關網站</div>
+            <div class="more">more</div>
+          </div>
+          <div>
+            <div>金融監督管理委員會</div>
+            <div>台灣證券交易所</div>
+            <div>台灣期貨交易所</div>
+            <div>證券櫃檯買賣中心</div>
+            <div>台灣集保結算所</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer">
+      <div class="contact-first">
+        <div>聯絡我們:</div>
+        <div>週一至週五</div>
+        <div>08:00~20:00 電話:(02)3789-7555</div>
+        <div>08:30~17:30 電話:(02)2514-1125、(02)2415-1242</div>
+      </div>
+      <div class="contact-second">
+        <div>E-Mail:tdcc@tdcc.com.tw</div>
+        <div>台北市復興北路363號11樓</div>
+      </div>
+      <div class="contact-logo">
+        <img src="https://picsum.photos/150/50?random=7" alt="">
+        <img src="https://picsum.photos/150/50?random=8" alt="">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
